@@ -1,21 +1,26 @@
 #include <iostream>
 #include <vector>
+#include <deque>
 
-using std::cin;
-using std::cout;
-using std::vector;
-using std::max;
+using namespace std;
 
-void max_sliding_window_naive(vector<int> const & A, int w) {
-    for (size_t i = 0; i < A.size() - w + 1; ++i) {
-        int window_max = A.at(i);
-        for (size_t j = i + 1; j < i + w; ++j)
-            window_max = max(window_max, A.at(j));
+void max_sliding_window(vector<int> const & A, int w) {
+	deque<int> d; //push indecies
 
-        cout << window_max << " ";
-    }
+	for (int i = 0; i < A.size(); ++i) {
+		while (!d.empty() && A[d.back()] <= A[i]) {
+			d.pop_back();
+		}
+		d.push_back(i);
+		if (i + 1 >= w) {
+			cout << A[d.front()] << ' ';
+		}
+		if (d.front() == i - w + 1) {
+			d.pop_front();
+		}
+	}
 
-    return;
+	return ;
 }
 
 
@@ -30,7 +35,7 @@ int main() {
     int w = 0;
     cin >> w;
 
-    max_sliding_window_naive(A, w);
+    max_sliding_window(A, w);
 
     return 0;
 }

@@ -3,31 +3,34 @@
 #include <string>
 #include <cassert>
 #include <algorithm>
+#include <stack>
+using namespace std;
 
-using std::cin;
-using std::string;
-using std::vector;
-using std::cout;
-using std::max_element;
 
 class StackWithMax {
-    vector<int> stack;
 
   public:
 
     void Push(int value) {
-        stack.push_back(value);
+    	s.push(value);
+    	if ((!mx.empty() && mx.top() <= value) || mx.empty()) {
+    		mx.push(value);
+    	}
     }
 
     void Pop() {
-        assert(stack.size());
-        stack.pop_back();
+    	if (mx.top() == s.top()) {
+    		mx.pop();
+    	}
+    	s.pop();
     }
 
     int Max() const {
-        assert(stack.size());
-        return *max_element(stack.begin(), stack.end());
+		return mx.top();
     }
+private:
+	stack<int> s;
+    stack<int> mx;
 };
 
 int main() {

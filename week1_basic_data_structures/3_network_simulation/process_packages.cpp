@@ -30,11 +30,30 @@ public:
     {}
 
     Response Process(const Request &request) {
-        // write your code here
+    	static int last_added_finish_time = 0;
+    	while (!finish_time_.empty() && finish_time_.top() <= request.arrival_time) {
+    		finish_time_.pop();
+    	}
+
+		if (finish_time_.size() < size_) {
+			int start_process_time;
+
+			if (finish_time_.empty()) {
+				start_process_time = request.arrival_time;
+			} else {
+				start_process_time = last_added_finish_time;
+			}
+
+			last_added_finish_time = start_process_time + request.process_time;
+			finish_time_.push(last_added_finish_time);
+			return Response(false, start_process_time);
+		}
+
+		return Response(true, -1);
     }
 private:
     int size_;
-    std::queue <int> finish_time_;
+    std::priority_queue <int, std::vector<int>, std::greater<>> finish_time_;
 };
 
 std::vector <Request> ReadRequests() {
