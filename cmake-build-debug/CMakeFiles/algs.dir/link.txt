@@ -1,0 +1,1 @@
+/usr/bin/g++-9  -g   CMakeFiles/algs.dir/week2_priority_queues_and_disjoint_sets/3_merging_tables/tests.cpp.o  -o algs 

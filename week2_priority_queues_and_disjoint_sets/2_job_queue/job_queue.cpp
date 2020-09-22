@@ -1,13 +1,15 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <queue>
 
-using std::vector;
-using std::cin;
-using std::cout;
+
+using namespace std;
 
 class JobQueue {
  private:
+	using ll = long long;
+
   int num_workers_;
   vector<int> jobs_;
 
@@ -32,17 +34,24 @@ class JobQueue {
     // TODO: replace this code with a faster algorithm.
     assigned_workers_.resize(jobs_.size());
     start_times_.resize(jobs_.size());
-    vector<long long> next_free_time(num_workers_, 0);
+//    vector<long long> next_free_time(num_workers_, 0);
+	priority_queue<pair<ll, ll>, vector<pair<ll, ll>>, greater<>> next_free_time;
+	for (int i = 0; i < num_workers_; ++i) {
+		next_free_time.push({0, i});
+	}
     for (int i = 0; i < jobs_.size(); ++i) {
       int duration = jobs_[i];
-      int next_worker = 0;
-      for (int j = 0; j < num_workers_; ++j) {
-        if (next_free_time[j] < next_free_time[next_worker])
-          next_worker = j;
-      }
-      assigned_workers_[i] = next_worker;
-      start_times_[i] = next_free_time[next_worker];
-      next_free_time[next_worker] += duration;
+      auto next_worker = next_free_time.top();
+      next_free_time.pop();
+//      for (int j = 0; j < num_workers_; ++j) {
+//        if (next_free_time[j] < next_free_time[next_worker])
+//          next_worker = j;
+//      }
+
+      assigned_workers_[i] = next_worker.second;
+      start_times_[i] = next_worker.first;
+      next_worker.first += duration;
+      next_free_time.push(next_worker);
     }
   }
 

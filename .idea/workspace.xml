@@ -1,8 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeSettings">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="course" targetName="algs" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3af2c1c-0429-4e4e-9b82-f5294f5fd55f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_priority_queues_and_disjoint_sets/1_make_heap/build_heap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/week2_priority_queues_and_disjoint_sets/1_make_heap/build_heap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_priority_queues_and_disjoint_sets/2_job_queue/job_queue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/week2_priority_queues_and_disjoint_sets/2_job_queue/job_queue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_priority_queues_and_disjoint_sets/3_merging_tables/merging_tables.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/week2_priority_queues_and_disjoint_sets/3_merging_tables/merging_tables.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dJP83GeDeoG8AXri5wL0Uy9VOb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algs" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="156" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="course" TARGET_NAME="algs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="course" RUN_TARGET_NAME="algs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3af2c1c-0429-4e4e-9b82-f5294f5fd55f" name="Default Changelist" comment="" />
+      <created>1592140059943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592140059943</updated>
+      <workItem from="1592140061314" duration="7749000" />
+      <workItem from="1592222774385" duration="5804000" />
+      <workItem from="1592399384755" duration="1060000" />
+      <workItem from="1592411630653" duration="6529000" />
+      <workItem from="1593096692356" duration="7631000" />
+      <workItem from="1595358132687" duration="1356000" />
+      <workItem from="1595409648681" duration="5810000" />
+      <workItem from="1600717277030" duration="44000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="657" y="232" width="596" height="568" key="#algs" timestamp="1595417141673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="232" width="596" height="568" key="#algs/0.0.1920.1040@0.0.1920.1040" timestamp="1595417141673" />
+    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595417006093">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595417006093" />
+    <state x="714" y="324" width="482" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592224339190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="324" width="482" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592224339190" />
+    <state x="859" y="275" width="192" height="482" key="#xdebugger.XInspectDialog" timestamp="1595411697921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="859" y="275" width="192" height="482" key="#xdebugger.XInspectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595411697921" />
+    <state x="718" y="266" key="#xdebugger.evaluate" timestamp="1595410058804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="266" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1595410058804" />
+    <state x="1223" y="277" width="424" height="479" key="FileChooserDialogImpl" timestamp="1600717314126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1223" y="277" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600717314126" />
+    <state width="1878" height="426" key="GridCell.Tab.0.bottom" timestamp="1595417179747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="426" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595417179747" />
+    <state width="1878" height="426" key="GridCell.Tab.0.center" timestamp="1595417179746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="426" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595417179746" />
+    <state width="1878" height="426" key="GridCell.Tab.0.left" timestamp="1595417179746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="426" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595417179746" />
+    <state width="1878" height="426" key="GridCell.Tab.0.right" timestamp="1595417179746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="426" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595417179746" />
+    <state width="1878" height="426" key="GridCell.Tab.1.bottom" timestamp="1595417179747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="426" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595417179747" />
+    <state width="1878" height="426" key="GridCell.Tab.1.center" timestamp="1595417179747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="426" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595417179747" />
+    <state width="1878" height="426" key="GridCell.Tab.1.left" timestamp="1595417179747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="426" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595417179747" />
+    <state width="1878" height="426" key="GridCell.Tab.1.right" timestamp="1595417179747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="426" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595417179747" />
+    <state x="464" y="154" key="SettingsEditor" timestamp="1595409791214">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="464" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595409791214" />
+    <state x="505" y="251" width="900" height="530" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595411334004">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="505" y="251" width="900" height="530" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1595411334004" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1593097773411">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593097773411" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/week1_basic_data_structures/3_network_simulation/process_packages.cpp</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/week2_priority_queues_and_disjoint_sets/1_make_heap/build_heap.cpp</url>
+          <line>58</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/week2_priority_queues_and_disjoint_sets/1_make_heap/build_heap.cpp</url>
+          <line>39</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/week2_priority_queues_and_disjoint_sets/3_merging_tables/tests.cpp</url>
+          <line>10</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
